@@ -1,0 +1,5 @@
+Maximally trivial Swing app with a JTextField, which triggers a
+keyboard focus issue with JDK 1.7 on X11. Run with:
+
+  mvn exec:java
+
