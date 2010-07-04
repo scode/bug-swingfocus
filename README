@@ -3,3 +3,32 @@ keyboard focus issue with JDK 1.7 on X11. Run with:
 
   mvn compile && mvn exec:java
 
+Observations
+============
+
+With openjdk6 and openjdk7 both I see activated and open on initial
+start (not necessarily in order):
+
+java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on frame0
+java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on frame0
+
+In both cases, switching away produces a DEACTIVATED:
+
+java.awt.event.WindowEvent[WINDOW_DEACTIVATED,opposite=null,oldState=0,newState=0] on frame0
+
+However, in both cases, switching back does not generate an
+ACTIVATED. In both cases I must take additional action to make the
+window activated:
+
+java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on frame0
+
+With openjdk6, it is sufficient to click in the window. With openjdk7
+I must keep the focus on another window in the same workspace, but
+click this app's window with the *mouse*.
+
+Another difference is that with openjdk6 on start-up I get an
+ICONIFIED after OPENED:
+
+java.awt.event.WindowEvent[WINDOW_ICONIFIED,opposite=null,oldState=0,newState=0] on frame0
+
+
