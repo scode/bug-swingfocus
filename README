@@ -13,6 +13,9 @@ data/xec-focustoggle.log contains the output of 'xev' for a session in which:
   (3) and back
   (4) and close the window
 
+To be clear, this is for the xev Window. I don't know of a tool or
+method to obtain the equivalent protocol capture for another client.
+
 Observations
 ============
 
