@@ -6,7 +6,7 @@ keyboard focus issue with JDK 1.7 on X11. Run with:
 Data
 ====
 
-data/xec-focustoggle.log contains the output of 'xev' for a session in which:
+data/xec-stumpwm-focustoggle.log contains the output of 'xev' for a session in which:
 
   (1) xev is started, in focus.
   (2) i switch focus away
