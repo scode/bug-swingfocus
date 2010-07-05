@@ -1,0 +1,164 @@
+Outer window is 0x1600001, inner window is 0x1600002
+
+PropertyNotify event, serial 8, synthetic NO, window 0x1600001,
+    atom 0x27 (WM_NAME), time 37933354, state PropertyNewValue
+
+PropertyNotify event, serial 9, synthetic NO, window 0x1600001,
+    atom 0x22 (WM_COMMAND), time 37933354, state PropertyNewValue
+
+PropertyNotify event, serial 10, synthetic NO, window 0x1600001,
+    atom 0x28 (WM_NORMAL_HINTS), time 37933354, state PropertyNewValue
+
+CreateNotify event, serial 11, synthetic NO, window 0x1600001,
+    parent 0x1600001, window 0x1600002, (10,10), width 50, height 50
+border_width 4, override NO
+
+PropertyNotify event, serial 14, synthetic NO, window 0x1600001,
+    atom 0x108 (WM_PROTOCOLS), time 37933354, state PropertyNewValue
+
+MapNotify event, serial 15, synthetic NO, window 0x1600001,
+    event 0x1600001, window 0x1600002, override NO
+
+ConfigureNotify event, serial 18, synthetic NO, window 0x1600001,
+    event 0x1600001, window 0x1600001, (0,0), width 178, height 178,
+    border_width 0, above 0x1400004, override NO
+
+PropertyNotify event, serial 18, synthetic NO, window 0x1600001,
+    atom 0x157 (_NET_WM_ALLOWED_ACTIONS), time 37933389, state PropertyNewValue
+
+PropertyNotify event, serial 18, synthetic NO, window 0x1600001,
+    atom 0x157 (_NET_WM_ALLOWED_ACTIONS), time 37933389, state PropertyNewValue
+
+ReparentNotify event, serial 18, synthetic NO, window 0x1600001,
+    event 0x1600001, window 0x1600001, parent 0x6031b8,
+    (0,0), override NO
+
+PropertyNotify event, serial 18, synthetic NO, window 0x1600001,
+    atom 0x110 (_NET_WM_DESKTOP), time 37933389, state PropertyNewValue
+
+PropertyNotify event, serial 18, synthetic NO, window 0x1600001,
+    atom 0x110 (_NET_WM_DESKTOP), time 37933389, state PropertyNewValue
+
+PropertyNotify event, serial 18, synthetic NO, window 0x1600001,
+    atom 0x10d (_NET_FRAME_EXTENTS), time 37933389, state PropertyNewValue
+
+ConfigureNotify event, serial 18, synthetic NO, window 0x1600001,
+    event 0x1600001, window 0x1600001, (4,21), width 178, height 178,
+    border_width 0, above 0x0, override NO
+
+PropertyNotify event, serial 18, synthetic NO, window 0x1600001,
+    atom 0x12d (WM_STATE), time 37933389, state PropertyNewValue
+
+PropertyNotify event, serial 18, synthetic NO, window 0x1600001,
+    atom 0x115 (_NET_WM_STATE), time 37933389, state PropertyNewValue
+
+ConfigureNotify event, serial 25, synthetic YES, window 0x1600001,
+    event 0x1600001, window 0x1600001, (594,368), width 178, height 178,
+    border_width 2, above 0x0, override NO
+
+MapNotify event, serial 25, synthetic NO, window 0x1600001,
+    event 0x1600001, window 0x1600001, override NO
+
+VisibilityNotify event, serial 25, synthetic NO, window 0x1600001,
+    state VisibilityUnobscured
+
+Expose event, serial 25, synthetic NO, window 0x1600001,
+    (0,0), width 178, height 10, count 3
+
+Expose event, serial 25, synthetic NO, window 0x1600001,
+    (0,10), width 10, height 58, count 2
+
+Expose event, serial 25, synthetic NO, window 0x1600001,
+    (68,10), width 110, height 58, count 1
+
+Expose event, serial 25, synthetic NO, window 0x1600001,
+    (0,68), width 178, height 110, count 0
+
+PropertyNotify event, serial 25, synthetic NO, window 0x1600001,
+    atom 0x115 (_NET_WM_STATE), time 37933524, state PropertyNewValue
+
+FocusIn event, serial 25, synthetic NO, window 0x1600001,
+    mode NotifyNormal, detail NotifyNonlinear
+
+KeymapNotify event, serial 25, synthetic NO, window 0x0,
+    keys:  2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+PropertyNotify event, serial 25, synthetic NO, window 0x1600001,
+    atom 0x115 (_NET_WM_STATE), time 37933524, state PropertyNewValue
+
+FocusOut event, serial 28, synthetic NO, window 0x1600001,
+    mode NotifyNormal, detail NotifyNonlinear
+
+EnterNotify event, serial 28, synthetic NO, window 0x1600001,
+    root 0x117, subw 0x0, time 37941851, (40,176), root:(636,546),
+    mode NotifyNormal, detail NotifyAncestor, same_screen YES,
+    focus NO, state 0
+
+KeymapNotify event, serial 28, synthetic NO, window 0x0,
+    keys:  2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+MotionNotify event, serial 28, synthetic NO, window 0x1600001,
+    root 0x117, subw 0x0, time 37941851, (40,176), root:(636,546),
+    state 0x0, is_hint 0, same_screen YES
+
+MotionNotify event, serial 28, synthetic NO, window 0x1600001,
+    root 0x117, subw 0x0, time 37941867, (40,174), root:(636,544),
+    state 0x0, is_hint 0, same_screen YES
+
+MotionNotify event, serial 28, synthetic NO, window 0x1600001,
+    root 0x117, subw 0x0, time 37941875, (41,170), root:(637,540),
+    state 0x0, is_hint 0, same_screen YES
+
+MotionNotify event, serial 28, synthetic NO, window 0x1600001,
+    root 0x117, subw 0x0, time 37941899, (41,167), root:(637,537),
+    state 0x0, is_hint 0, same_screen YES
+
+MotionNotify event, serial 28, synthetic NO, window 0x1600001,
+    root 0x117, subw 0x0, time 37941923, (41,162), root:(637,532),
+    state 0x0, is_hint 0, same_screen YES
+
+MotionNotify event, serial 28, synthetic NO, window 0x1600001,
+    root 0x117, subw 0x0, time 37941939, (41,160), root:(637,530),
+    state 0x0, is_hint 0, same_screen YES
+
+FocusIn event, serial 28, synthetic NO, window 0x1600001,
+    mode NotifyNormal, detail NotifyNonlinear
+
+KeymapNotify event, serial 28, synthetic NO, window 0x0,
+    keys:  23  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+ButtonPress event, serial 28, synthetic NO, window 0x1600001,
+    root 0x117, subw 0x0, time 37942974, (41,160), root:(637,530),
+    state 0x0, button 1, same_screen YES
+
+ButtonRelease event, serial 28, synthetic NO, window 0x1600001,
+    root 0x117, subw 0x0, time 37943011, (41,160), root:(637,530),
+    state 0x100, button 1, same_screen YES
+
+MotionNotify event, serial 28, synthetic NO, window 0x1600001,
+    root 0x117, subw 0x0, time 37944491, (40,162), root:(636,532),
+    state 0x0, is_hint 0, same_screen YES
+
+MotionNotify event, serial 28, synthetic NO, window 0x1600001,
+    root 0x117, subw 0x0, time 37944507, (31,171), root:(627,541),
+    state 0x0, is_hint 0, same_screen YES
+
+LeaveNotify event, serial 28, synthetic NO, window 0x1600001,
+    root 0x117, subw 0x0, time 37944523, (17,189), root:(613,559),
+    mode NotifyNormal, detail NotifyAncestor, same_screen YES,
+    focus YES, state 0
+
+VisibilityNotify event, serial 28, synthetic NO, window 0x1600001,
+    state VisibilityPartiallyObscured
+
+VisibilityNotify event, serial 28, synthetic NO, window 0x1600001,
+    state VisibilityUnobscured
+
+Expose event, serial 28, synthetic NO, window 0x1600001,
+    (163,0), width 15, height 24, count 0
+
+ClientMessage event, serial 28, synthetic YES, window 0x1600001,
+    message_type 0x108 (WM_PROTOCOLS), format 32, message 0x106 (WM_DELETE_WINDOW)

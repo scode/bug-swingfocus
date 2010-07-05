@@ -6,12 +6,14 @@ keyboard focus issue with JDK 1.7 on X11. Run with:
 Data
 ====
 
-data/xec-stumpwm-focustoggle.log contains the output of 'xev' for a session in which:
+data/xev-stumpwm-focustoggle.log contains the output of 'xev' for a session in which:
 
   (1) xev is started, in focus.
   (2) i switch focus away
   (3) and back
   (4) and close the window
+
+data/xev-metacity-focustoggle.log contains similar for metacity (plus mouse events).
 
 To be clear, this is for the xev Window. I don't know of a tool or
 method to obtain the equivalent protocol capture for another client.
