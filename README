@@ -45,3 +45,21 @@ Another difference is that with openjdk6 on start-up I get an
 ICONIFIED after OPENED:
 
 java.awt.event.WindowEvent[WINDOW_ICONIFIED,opposite=null,oldState=0,newState=0] on frame0
+
+Focus lost/gained
+=================
+
+With both OpenJDK 6 and 7 (in stumpwm), switching between two windows
+produce no FOCUS_GAINED events ever. The only time I saw a
+FOCUS_GAINED was on initial start-up of the application. FOCUS_LOST is
+dispatched when I switch away, but there is no FOCUS_GAINED when I
+switch back.
+
+Clicking the mouse also does not generate FOCUS_GAINED. Hypothesis:
+FOCUS_GAINED is simply broken in both cases, but for whatever reason
+it happens to be the case that in OpenJDK 6 the mouse clicks end up
+triggering caret activation in spite of no FOCUS_GAINED event being
+seen (might this even be a bug? I don't know what correct behavior is
+with respect to focus).
+
+Next up - figure out why FOCUS_GAINED is not dispatched.
