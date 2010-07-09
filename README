@@ -63,3 +63,7 @@ seen (might this even be a bug? I don't know what correct behavior is
 with respect to focus).
 
 Next up - figure out why FOCUS_GAINED is not dispatched.
+
+Ok, adding some System.out.println()'s to
+sun.awt.X11.XWindowPeer.handleFocusEvent() indicates that focus events
+are not even reaching that point.
