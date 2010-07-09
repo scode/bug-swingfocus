@@ -11,6 +11,7 @@ public class TestFrame extends JFrame {
 		JTextField tf = new JTextField();
 
 		addWindowListener(l);
+		addFocusListener(l);
 		tf.addCaretListener(l);
 		tf.addFocusListener(l);
 		tf.addMouseListener(l);
