@@ -3,6 +3,16 @@ keyboard focus issue with JDK 1.7 on X11. Run with:
 
   mvn compile && mvn exec:java
 
+Update
+======
+
+Turns out this problem has been identified:
+
+  http://bugs.sun.com/view_bug.do?bug_id=6798064
+
+With a JDK build without the realNativeFocusedWindow check behavior is
+back to what one expects from JDK 1.6.
+
 Data
 ====
 
